@@ -76,3 +76,33 @@ body{
         justify-content: space-around;
     }
 }
+/* .allC{ 
+    width: 80%;
+    margin: auto;
+    height: 50vh;
+    border: 4px groove #0f172a;
+    border-radius: 10px;
+    background: linear-gradient(to left, rgba(0, 255, 70, 1.0), #78ffbe, #8855ff, #996645);
+} */
+
+.allC{ 
+    width: 80%;
+    margin: auto;
+    height: 50vh;
+    border: 8px grove rgba(15, 23, 42, 1.0);
+    border-radius: 10px;
+
+
+    /* Glassmophism Background */
+    background: linear-gradient(to left, 
+    rgba(0, 255, 70, 0.3),
+    rgba(120, 255, 190, 0.3),
+    rgba(153, 102, 69, 0.3),
+    rgba(153, 102, 69, 0.3)
+    );
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    border: 4px solid rgba(255, 255, 255, 0.18);
+}
