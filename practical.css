@@ -106,3 +106,28 @@ body{
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
     border: 4px solid rgba(255, 255, 255, 0.18);
 }
+
+.shadow{ 
+    width: 80%;
+    border: 2px ridge #505099;
+    height: 300px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    /* background: linear-gradient(180deg, red, yellow); */
+    /* background: radial-gradient(circle, blue, white, yellow, skyblue); */
+    background: linear-gradient( 70deg, blue, skyblue,  orange, yellow, white);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+    box-shadow: 4px 4px 15px #203050;
+    border-radius: 10px;
+}
+.shadow #para{ 
+    font-size: 2rem;
+    /* border: 4px groove #1212ff;
+    background-color: skyblue;
+    max-width: 400px; */
+    margin: auto;
+    text-shadow: 4px 4px 10px #00ffc0;
+}
