@@ -131,3 +131,9 @@ body{
     margin: auto;
     text-shadow: 4px 4px 10px #00ffc0;
 }
+.scatric{ 
+    width: 100%;
+    height: 80vh;
+    border: 4px groove #ff0099;
+    background: url("Main Testing.jpg") center / cover no-repeat;
+}
